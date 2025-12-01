@@ -16,7 +16,7 @@ const Signup = () => {
   const navigate = useNavigate();
 
   // Fixed API_URL - remove /api/auth from the base URL
-  const API_URL = import.meta.env?.VITE_API_URL || 
+  const API_URL = import.meta.env?.VITE_BASE_URL || 
                  (typeof process !== 'undefined' && process.env?.REACT_APP_API_URL) || 
                  'http://localhost:5000';
 
