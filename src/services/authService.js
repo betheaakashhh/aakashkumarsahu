@@ -11,7 +11,7 @@ console.log('🌐 API Configuration:', {
 
 
 export const authService = {
-  // CLIENT LOGIN - Uses /api/auth/login
+ 
   async clientLogin(email, password) {
     try {
       console.log('🔐 Attempting client login to:', `${API_URL}/login`);
